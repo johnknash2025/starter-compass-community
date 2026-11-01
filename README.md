@@ -1,41 +1,43 @@
-# Starter Compass 公開ドキュメント
+# Starter Compass public documentation
 
-Starter Compass は、個人事業と一人法人・小規模法人の選択や、その後の事業設計を考えるための比較・理解ツールを目指しています。このリポジトリでは、プロダクトの考え方、対象にしたいシナリオ、計算の透明性方針、公開ロードマップを共有し、利用者・実務家から意見を募ります。
+English | [日本語](README.ja.md)
 
-> **これは公開用の企画・ドキュメントリポジトリです。** ここに記載する幅広いシナリオが、現在のアプリで計算できることを意味しません。実装済み・検証済み・検討中を各資料で区別します。
+Starter Compass aims to be a comparison and understanding tool for choosing between sole proprietorship and a one-person or small corporation, and for planning the business afterwards. This repository shares the product thinking, the scenarios we want to cover, our transparency policy for calculations, and a public roadmap, and invites input from users and practitioners.
 
-## 目指すもの
+> **This is a public planning and documentation repository.** The wide range of scenarios described here does not mean they can be calculated by the current app. Each document distinguishes between implemented, verified, and under consideration.
 
-単一の「法人化すべき年収」を提示するのではなく、事業の種類、所得の組み合わせ、役員報酬、社会保険、地域、法人に残す資金などの前提を変えた複数シナリオを並べ、結果がどう変化するかを利用者自身が理解できるようにします。
+## What we aim for
 
-Starter Compass は税務・法律・社会保険の助言や申告書作成を行うサービスではありません。すべての結果には年度、前提、出典、未確認事項を併記し、個別判断は税理士・社会保険労務士などの専門家へ確認することを案内します。
+Rather than presenting a single "income at which you should incorporate", we line up multiple scenarios that vary assumptions such as the type of business, the mix of income, officer compensation, social insurance, location, and funds left in the company, so that users can understand for themselves how the results change.
 
-## 差別化の仮説
+Starter Compass is not a service that gives tax, legal, or social insurance advice, and it does not prepare filings. Every result is published together with its fiscal year, assumptions, sources, and unconfirmed items, and we direct users to confirm individual judgements with a tax accountant, a labour and social security labour consultant, or another qualified professional.
 
-一般的な税額比較だけではなく、次の組み合わせを細かく扱うことを目標にします。
+## Our differentiation hypothesis
 
-- **複数の業種・収益モデル:** 専門職や受託業に加え、農業、デジタル商品、SaaS、AI関連のサービスや製品など。
-- **複合ケース:** 会社員から独立する時期、給与と事業所得の併存、複数事業、個人事業と法人の併営など。
-- **事業のお金と個人のお金の両方:** 税引後の個人手取りに加え、社会保険料、法人維持費、法人に残る資金を別々に比較。
-- **前提の可視化:** 税目・料率・適用年度・地域・出典・確認日・簡略化・未確認事項を開示。
-- **AI事業の実態:** AIの呼称ではなく、受託、SaaS、API利用、エージェント提供、ローカル推論設備、コンテンツ等の収益構造・費用構造で分類。
+Beyond ordinary tax-amount comparisons, we aim to handle the following combinations in detail.
 
-これはプロダクト仮説です。需要・支払意思や、各シナリオの実務上の適用可否は未検証です。
+- **Multiple industries and revenue models:** alongside professional services and contracted work, agriculture, digital products, SaaS, and AI-related services and products.
+- **Mixed cases:** when an employee becomes independent, salary and business income coexisting, multiple businesses, running a sole proprietorship alongside a company.
+- **Both business money and personal money:** in addition to after-tax personal take-home pay, separately comparing social insurance premiums, company running costs, and funds retained in the company.
+- **Visible assumptions:** disclosing tax items, rates, applicable fiscal years, regions, sources, dates checked, simplifications, and unconfirmed items.
+- **What AI businesses actually look like:** classified by revenue and cost structure — contracted work, SaaS, API usage, agent offerings, local inference equipment, content — rather than by the label "AI".
 
-## ドキュメント
+This is a product hypothesis. Demand, willingness to pay, and whether each scenario is applicable in practice are unverified.
 
-- [プロダクト原則](docs/product-principles.md)
-- [シナリオカタログ](docs/scenario-catalog.md)
-- [計算の透明性とレビュー方針](docs/calculation-methodology.md)
-- [公式情報の出典方針](docs/source-policy.md)
-- [ロードマップと実装状態](docs/roadmap.md)
-- [フィードバックの出し方](CONTRIBUTING.md)
-- [セキュリティと個人情報](SECURITY.md)
+## Documentation
 
-## 現状
+- [Product principles](docs/product-principles.md)
+- [Scenario catalog](docs/scenario-catalog.md)
+- [Calculation transparency and review policy](docs/calculation-methodology.md)
+- [Official information source policy](docs/source-policy.md)
+- [Roadmap and implementation status](docs/roadmap.md)
+- [How to give feedback](CONTRIBUTING.md)
+- [Security and personal information](SECURITY.md)
 
-この公開リポジトリはドキュメントとフィードバックのためのものです。有料機能、支払い、ユーザーアカウント、個別データ保管、税務相談は提供しません。計算アプリの対応範囲は、本番サイトとその画面上に記載された前提を確認してください。
+## Current status
 
-## ライセンス
+This public repository exists for documentation and feedback. We do not offer paid features, payments, user accounts, individual data storage, or tax consultations. For the scope the calculation app covers, check the production site and the assumptions shown on its screens.
 
-このリポジトリ内のオリジナル文書は [CC BY 4.0](LICENSE.md) で公開します。政府機関等の出典資料は各提供者の利用条件が適用されます。第三者の文章や表をそのまま転載せず、原則として出典へリンクします。
+## License
+
+The original documents in this repository are published under [CC BY 4.0](LICENSE.md). Source materials from government agencies and similar bodies remain subject to the terms set by their providers. We do not reproduce third-party text or tables verbatim; as a rule we link to the source.
